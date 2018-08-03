@@ -1,0 +1,15 @@
+com\xdl\bean\User.class
+com\xdl\config\TestConfig.class
+com\xdl\bean\LoginCase.class
+com\xdl\cases\AddUserTest.class
+com\xdl\Application.class
+com\xdl\util\GetPropertiesUtil.class
+com\xdl\controller\UserController.class
+com\xdl\Mapper\UserMapper.class
+com\xdl\cases\TestUserController.class
+com\xdl\config\ExtentTestNGIReporterListener$1.class
+com\xdl\bean\AddUserCase.class
+com\xdl\bean\GetUserListCase.class
+com\xdl\config\SwaggerConfig.class
+com\xdl\cases\LoginTest.class
+com\xdl\config\ExtentTestNGIReporterListener.class

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="14419" started-at="2018-08-03T12:11:28Z" finished-at="2018-08-03T12:11:42Z">
+    <groups>
+    </groups>
+    <test name="登录测试" duration-ms="14419" started-at="2018-08-03T12:11:28Z" finished-at="2018-08-03T12:11:42Z">
+      <class name="com.xdl.cases.TestUserController">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="16" started-at="2018-08-03T20:11:28Z" finished-at="2018-08-03T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="12933" started-at="2018-08-03T20:11:28Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-08-03T20:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-08-03T20:11:41Z" finished-at="2018-08-03T20:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="test1" duration-ms="4" started-at="2018-08-03T20:11:41Z" finished-at="2018-08-03T20:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-03T20:11:41Z" finished-at="2018-08-03T20:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-08-03T20:11:41Z" finished-at="2018-08-03T20:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.loginTrueTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="loginTrueTest()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="loginTrueTest" duration-ms="1171" started-at="2018-08-03T20:11:41Z" finished-at="2018-08-03T20:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrueTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.loginFalseTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.loginTrueTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="loginFalseTest()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="loginFalseTest" duration-ms="16" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFalseTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.loginFalseTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.addUserTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="addUserTest()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="addUserTest" duration-ms="246" started-at="2018-08-03T20:11:42Z" depends-on-methods="com.xdl.cases.TestUserController.loginTrueTest" finished-at="2018-08-03T20:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xdl.cases.TestUserController.addUserTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.xdl.cases.TestUserController@192d43ce]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-08-03T20:11:42Z" finished-at="2018-08-03T20:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.xdl.cases.TestUserController -->
+    </test> <!-- 登录测试 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>
